@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gog-personal</title>
+</head>
+<body>
+<h1>gog-personal</h1>
+
+<p>gog-personal は、持ち主 1 人が自分の Gmail を、自分の計算機の上で動く道具（<a href="https://gogcli.sh/">gogcli</a>）で扱うためだけの OAuth の client です。一般の利用者には提供していません。</p>
+
+<p>この頁は持ち主が個人で運営します。株式会社カエミラの service ではなく、同社の domain を借りて置いています。</p>
+
+<h2>する事</h2>
+<ul>
+<li>持ち主の Gmail のメールを探し、読む</li>
+<li>持ち主の指示で、既読と未読・label・アーカイブ・ゴミ箱へ移す事・下書きを作る事をする</li>
+<li>メールを送る事と、完全に消す事はしない</li>
+</ul>
+
+<h2>使う Google の data</h2>
+<p>Gmail の API の scope（gmail.modify・gmail.settings.basic・gmail.settings.sharing）で、持ち主の account のメール・thread・label・下書き・送信元の設定を読み書きします。扱いは <a href="privacy.html">プライバシー ポリシー</a> に書きます。</p>
+
+<hr>
+
+<h1 lang="en">gog-personal (English)</h1>
+<div lang="en">
+<p>gog-personal is an OAuth client used only by its owner, a single individual, to work with the owner's own Gmail account through a tool running on the owner's own computer (<a href="https://gogcli.sh/">gogcli</a>). It is not offered to the public.</p>
+<p>This page is run by the owner as an individual. It is not a service of Kaemira Inc.; it only uses a subdomain of that company's domain.</p>
+<h2>What it does</h2>
+<ul>
+<li>Searches and reads the owner's Gmail messages.</li>
+<li>On the owner's instruction, marks messages read or unread, adds or removes labels, archives, moves messages to Trash, and creates drafts.</li>
+<li>It does not send mail and does not permanently delete mail.</li>
+</ul>
+<h2>Google user data it uses</h2>
+<p>Through the Gmail API scopes gmail.modify, gmail.settings.basic and gmail.settings.sharing, it reads and modifies the messages, threads, labels, drafts and send-as settings of the owner's account. See the <a href="privacy.html">Privacy Policy</a>.</p>
+</div>
+</body>
+</html>
